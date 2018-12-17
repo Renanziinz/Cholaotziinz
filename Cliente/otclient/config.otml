@@ -1,0 +1,249 @@
+window-size: 600 480
+window-pos: 380 144
+window-maximized: true
+uuid: 3mIdU29ank4pwhxJ3Io95s6B3Ag=
+locale: pt
+fullscreen: false
+showPrivateMessagesOnScreen: true
+painterEngine: 0
+showPing: false
+smartWalk: true
+vsync: false
+dontStretchShrink: false
+displayText: true
+displayHealth: true
+foregroundFrameRate: 61
+enableAudio: false
+classicControl: true
+showFps: false
+enableLights: true
+dashWalk: true
+musicSoundVolume: 100
+ambientLight: 100
+enableMusicSound: true
+backgroundFrameRate: 201
+showPrivateMessagesInConsole: true
+displayNames: true
+showLeftPanel: true
+showStatusMessagesInConsole: true
+showTimestampsInConsole: true
+showEventMessagesInConsole: true
+autoChaseOverride: true
+showInfoMessagesInConsole: true
+report-uuid: cf598d49-b74d-4d9c-adcb-5bec6fe1a9a2
+VipList:
+  VipInfo:
+UseIgnoreList: false
+UseWhiteList: false
+IgnorePrivateMessages: false
+IgnoreYelling: false
+host: 127.0.0.1
+port: 7171
+client-version: 854
+last-used-character: [GM] Renanziiinz
+last-used-world: Forgotten
+game_hotkeys:
+  127.0.0.1:
+    [DG]Dudu:
+      F11:
+        autoSend: true
+        value: #s m11
+      Shift+1:
+        autoSend: false
+        useType: 3
+        itemId: 11411
+      Ctrl+Down:
+        autoSend: true
+        value: #s t3
+      PageUp:
+        autoSend: true
+        value: #s h1
+      Ctrl+Up:
+        autoSend: true
+        value: #s t1
+      F10:
+        autoSend: true
+        value: #s m10
+      Ctrl+Right:
+        autoSend: true
+        value: #s t2
+      F1:
+        autoSend: true
+        value: #s m1
+      F2:
+        autoSend: true
+        value: #s m2
+      F3:
+        autoSend: true
+        value: #s m3
+      F5:
+        autoSend: true
+        value: #s m5
+      F4:
+        autoSend: true
+        value: #s m4
+      F7:
+        autoSend: true
+        value: #s m7
+      F6:
+        autoSend: true
+        value: #s m6
+      MouseMiddle:
+        autoSend: false
+        useType: 3
+        itemId: 3453
+      F12:
+        autoSend: true
+        value: #s m12
+      Ctrl+Left:
+        autoSend: true
+        value: #s t4
+      PageDown:
+        autoSend: true
+        value: #s h2
+      F8:
+        autoSend: true
+        value: #s m8
+      F9:
+        autoSend: true
+        value: #s m9
+MiniWindows:
+  battleWindow:
+    parentId: gameRightPanel
+    index: 2
+  skillWindow:
+    parentId: gameRightPanel
+    index: 5
+    closed: true
+  vipWindow:
+    index: 3
+    parentId: gameRightPanel
+    closed: false
+  pokemonWindow:
+    parentId: gameRightPanel
+    index: 1
+  minimapWindow:
+    index: 4
+    parentId: gameRightPanel
+    closed: false
+lastChannelsOpen:
+LastCombatControls:
+  Crystal:
+    fightMode: 2
+    chaseMode: 0
+    safeFight: true
+  [DG]Dudu:
+    fightMode: 2
+    chaseMode: 0
+    safeFight: true
+  [GM] Renanziiinz:
+    fightMode: 2
+    chaseMode: 0
+    safeFight: true
+  Renanziinz:
+    fightMode: 3
+    chaseMode: 0
+    safeFight: true
+  Katarina:
+    fightMode: 2
+    chaseMode: 0
+    safeFight: true
+Minimap:
+  flags:
+  zoom: 1
+game_console:
+  messageHistory:
+    53: #s t1
+    43: #s t3
+    73: #s t4
+    63: #s t1
+    47: #s t3
+    37: h"Outland north
+    67: #s t4
+    57: #s t1
+    27: 15791+
+    17: /m shiny gyarados
+    13: /i 15643
+    33: /cb shiny gengar
+    23: /reload actions
+    76: #s t3
+    52: #s t2
+    62: #s t4
+    72: #s t1
+    36: h"Outland
+    46: #s t1
+    56: #s t2
+    66: #s t1
+    16: /cb armaldo
+    26: /i 15786
+    12: /i 15134
+    22: /i 15792
+    32: /cb gardevoir
+    71: #s t4
+    61: #s t3
+    51: #s t3
+    41: h"saffron
+    65: #s t2
+    55: #s t3
+    45: #s t4
+    35: h" outland north
+    59: #s t3
+    49: #s t4
+    39: h"cerulean
+    29: #s m12
+    79: /reload actions
+    69: #s t4
+    1: /cb scizor
+    3: /cb scizor
+    2: /i scizorite
+    5: !ditomemory
+    4: #s m12
+    7: /i 2160
+    6: /t 2160
+    25: #s h2
+    8: /i 15621
+    31: /cb gardevoi
+    21: /i 14896
+    11: #s t2
+    60: #s t2
+    70: #s t1
+    40: /cb salamence
+    50: #s t1
+    54: #s t4
+    64: #s t4
+    34: /cb abra
+    44: #s t2
+    48: #s t2
+    58: #s t4
+    28: 15791
+    38: h"saffron
+    68: #s t1
+    78: /cb shiny lucario
+    15: #s t3
+    9: #s t4
+    80: /cb mega blastoise
+    74: #s t3
+    18: /cb shiny raichu
+    75: #s t4
+    77: /cb shiny mega lucario
+    14: #s t4
+    24: #s h1
+    81: /reload actions
+    19: /reload actions
+    20: /i 15792
+    30: /i 15785
+    42: #s t1
+    10: !buyhouse
+IgnorePlayers:
+WhitelistedPlayers:
+terminal-window:
+  poped: false
+game_interface:
+  splitterMarginBottom: 114
+ServerList:
+  127.0.0.1:
+    password:
+    port: 7171
+    protocol: 854
+    account:
+client_options:
