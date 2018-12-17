@@ -1,0 +1,56 @@
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Jun 11 2016
+build type: Release
+build revision: 0 (devel)
+crash date: Jun 16 2016 19:44:23
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a90d4
+  backtrace:
+    0: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x00000000004A90D4]
+    1: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x00000000004C43B7]
+    2: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x00000000004B6A67]
+    3: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x00000000004DF859]
+    4: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x000000000045A9F8]
+    5: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x000000000045B1D9]
+    6: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x000000000045AA40]
+    7: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x000000000045B1D9]
+    8: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x000000000045AA40]
+    9: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x000000000044EB14]
+    10: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x000000000046C480]
+    11: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe(alGetListeneriv+0x2706ff) [0x000000000077ACBF]
+    12: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x0000000000401250]
+    13: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x00000000004012D5]
+    14: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x63) [0x0000000076F49D72]
+    15: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x36) [0x0000000076F49D45]
+
+== application crashed
+app name: OTClient
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Jun 11 2016
+build type: Release
+build revision: 0 (devel)
+crash date: Jun 17 2016 19:30:54
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004a90d4
+  backtrace:
+    0: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x00000000004A90D4]
+    1: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x00000000004C43B7]
+    2: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x00000000004B6A67]
+    3: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x00000000004DF859]
+    4: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x000000000045A9F8]
+    5: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x000000000045B1D9]
+    6: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x000000000045AA40]
+    7: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x000000000045B1D9]
+    8: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x000000000045AA40]
+    9: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x000000000044EB14]
+    10: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x000000000046C480]
+    11: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe(alGetListeneriv+0x2706ff) [0x000000000077ACBF]
+    12: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x0000000000401250]
+    13: C:\Users\Administrador\Desktop\DXP sources\Nova pasta (3)\DxP Cliente\OTC DX9.exe [0x00000000004012D5]
+    14: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x63) [0x0000000077859D72]
+    15: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x36) [0x0000000077859D45]
+
