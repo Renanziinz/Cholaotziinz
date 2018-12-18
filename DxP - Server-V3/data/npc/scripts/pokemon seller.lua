@@ -316,14 +316,14 @@ function sellPokemon(cid, name, price)
 
 	local bp = getPlayerSlotItem(cid, CONST_SLOT_BACKPACK)
     if #getCreatureSummons(cid) >= 1 then
-       selfSay("Back your pokemon to do that!")
+       selfSay("Volte seu pokémon na pokéball!")
        focus = 0                                --alterado v1.8
        return true
     end
     local storages = {17000, 63215, 17001, 13008, 5700}   --alterado v1.8
     for s = 1, #storages do
         if getPlayerStorageValue(cid, storages[s]) >= 1 then
-           selfSay("You can't do that while is Flying, Riding, Surfing, Diving or mount a bike!") 
+           selfSay("Você não pode vender seu pokémon enquanto está no Fly, Ride, Surf ou na Bike!") 
            focus = 0 
            return true
         end
@@ -333,7 +333,7 @@ function sellPokemon(cid, name, price)
 		local precocertos = ((gastostones[boosts] * 10) * 100000)
        if string.lower(getItemAttribute(getPlayerSlotItem(cid, 8).uid, "poke")) == string.lower(name) then
           if not getItemAttribute(getPlayerSlotItem(cid, 8).uid, "unique") then  --alterado v1.6
-             selfSay("Wow! Thanks for this wonderful "..name.."! Take yours "..price.." dollars. Would you like to sell another pokemon?")
+             selfSay("Wow! Obrigado por este lindo "..name.."! Tome seus "..price.." dollars. Gostaria de vender mais algum pokémon?")
              doPlayerAddMoney(cid, (price * 100) + precocertos)
 			 doRemoveItem(getPlayerSlotItem(cid, 8).uid, 1)              --alterado v1.6
              doTransformItem(getPlayerSlotItem(cid, CONST_SLOT_LEGS).uid, 2395)
@@ -349,7 +349,7 @@ function sellPokemon(cid, name, price)
 	local precocerto = ((gastostones[boost] * 5) * 100000)
 			if string.lower(getItemAttribute(ball, "poke")) == string.lower(name) then
 				if not getItemAttribute(ball, "unique") then --alterado v1.6
-                   selfSay("Wow! Thanks for this wonderful "..getItemAttribute(ball, "poke").."! Take yours "..price.." dollars. Would you like to sell another pokemon?")
+                   selfSay("Wow! Obrigado por este lindo "..getItemAttribute(ball, "poke").."! Tome seus"..price.." dollars. Gostaria de vender mais algum pokémon?")
 				   				   doPlayerAddMoney(cid, (price * 100) + precocerto)
 				   doRemoveItem(ball, 1)
 	               return true
@@ -358,7 +358,7 @@ function sellPokemon(cid, name, price)
 		end
 	end
 
-	selfSay("You don't have a "..name..", make sure it is in your backpack and it is not fainted and it is not in a Unique Ball!")  --alterado v1.6
+	selfSay("YVocê não têm um "..name..". Certifique-se de que ele está na sua bag, que não está morto e que não é Unique Item!")  --alterado v1.6
 return false
 end
 
@@ -375,7 +375,7 @@ function onCreatureSay(cid, type, msg)
 	end
 
 	if msgcontains(msg, 'hi') and focus == 0 and getDistanceToCreature(cid) <= 3 then
-		selfSay('Welcome to my store! I buy pokemons of all species, just tell me the name of the pokemon you want to sell.')
+		selfSay('Bem vindo à minha loja! Eu compro pokémons de todas as espécies, basta me dizer o nome dele.')
 		focus = cid
 		conv = 1
 		talk_start = os.clock()
@@ -385,19 +385,19 @@ function onCreatureSay(cid, type, msg)
 	end
 
 	if msgcontains(msg, 'bye') and focus == cid then
-		selfSay('See you around then!')
+		selfSay('Até mais!')
 		focus = 0
 	return true
 	end
 
 	if msgcontains(msg, 'yes') and focus == cid and conv == 4 then
-		selfSay('Tell me the name of the pokemon you would like to sell.')
+		selfSay('Me diga o nome do pokémon que você deseja vender.')
 		conv = 1
 	return true
 	end
 
 	if msgcontains(msg, 'no') and conv == 4 and focus == cid then
-		selfSay('Ok, see you around then!')
+		selfSay('Ok, até logo então!')
 		focus = 0
 	return true
 	end
@@ -407,14 +407,14 @@ function onCreatureSay(cid, type, msg)
 	if conv == 1 and focus == cid then
 		for a = 1, #common do
 			if msgcontains(msg, common[a]) then
-				selfSay('I dont buy such a common pokemon!')
+				selfSay('Desculpe. Eu não compro pokémons tão comuns quanto este.')
 			return true
 			end
 		end
 	end
 
 	if msgcontains(msg, 'no') and conv == 3 and focus == cid then
-		selfSay('Well, then what pokemon would you like to sell?')
+		selfSay('Bem, então qual pokémon você gostaria de vender?')
 		conv = 1
 	return true
 	end
@@ -423,7 +423,7 @@ function onCreatureSay(cid, type, msg)
 		local name = doCorrectPokemonName(msg)
 		local pokemon = pokes[name]
 		if not pokemon then
-			selfSay("Sorry, I don't know what pokemon you're talking about! Are you sure you spelled it correctly?")
+			selfSay("Desculpe, eu não conheço esse pokémon! Você escreveu corretamente?")
 		return true
 		end
 
@@ -431,7 +431,7 @@ function onCreatureSay(cid, type, msg)
 
         cost = baseprice
         pname = name
-        selfSay("Are you sure you want to sell a "..name.." for "..cost.." dollars + boost?")
+        selfSay("Tem certeza que você quer vender "..name.." por "..cost.." dollars + boost?")
         conv = 3       
 	end
 
@@ -450,10 +450,10 @@ local intervalmin = 38
 local intervalmax = 70
 local delay = 25
 local number = 1
-local messages = {"Buying some beautiful pokemons! Come here to sell them!",
-		  "Wanna sell a pokemon? Came to the right place!",
-		  "Buy pokemon! Excellent offers!",
-		  "Tired of a pokemon? Why don't you sell it to me then?",
+local messages = {"Estou comprando pokémons! Venha à minha loja!",
+		  "Quer vender um Mega Camelo NPC? Então você veio ao lugar certo!",
+		  "Precisa de dinheiro? Venda aqui seus pokémons que estão sobrando.",
+		  "Sem espaço? Esvazie seu CP me vendendo pokémons!",
 		 }
 
 function onThink()
@@ -486,11 +486,11 @@ function onThink()
 		end
 		if (os.clock() - talk_start) > 70 then
 			focus = 0
-			selfSay("I have other clients too, talk to me when you feel like selling a pokemon.")
+			selfSay("Eu tenho outros clientes também. Me avise quando estiver pronto.")
 		end
 
 		if getDistanceToCreature(focus) > 3 then
-			selfSay("Good bye then and thanks!")
+			selfSay("Adeus e obrigada!")
 			focus = 0
 		return true
 		end

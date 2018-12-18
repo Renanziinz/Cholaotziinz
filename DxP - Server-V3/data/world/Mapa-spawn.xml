@@ -1704,10 +1704,10 @@
 		<monster name="Graveler" x="0" y="1" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="1013" centery="982" centerz="6" radius="1">
-		<npc name="Pokemon Collector" x="0" y="-1" z="6" spawntime="67" />
+		<npc name="Mark" x="0" y="-1" z="6" spawntime="60" />
 	</spawn>
-	<spawn centerx="1006" centery="988" centerz="6" radius="1">
-		<npc name="StoneSeller" x="-1" y="0" z="6" spawntime="15" />
+	<spawn centerx="978" centery="983" centerz="6" radius="1">
+		<npc name="StoneSeller" x="-1" y="0" z="6" spawntime="60" />
 	</spawn>
 	<spawn centerx="1151" centery="992" centerz="6" radius="1">
 		<npc name="Mark" x="-1" y="0" z="6" spawntime="60" />
@@ -4259,7 +4259,7 @@
 		<monster name="Koffing" x="4" y="4" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="994" centery="909" centerz="7" radius="5">
-		<monster name="Snorlax" x="-1" y="-1" z="7" spawntime="120" />
+		<monster name="Snorlax" x="0" y="-1" z="7" spawntime="120" />
 	</spawn>
 	<spawn centerx="1051" centery="909" centerz="7" radius="5">
 		<monster name="Oddish" x="1" y="2" z="7" spawntime="60" />
@@ -5085,6 +5085,7 @@
 	<spawn centerx="1009" centery="963" centerz="7" radius="5">
 		<monster name="Sunkern" x="0" y="-5" z="7" spawntime="60" />
 		<monster name="Hoppip" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Sunkern" x="3" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1076" centery="963" centerz="7" radius="5">
 		<monster name="Oddish" x="-5" y="2" z="7" spawntime="60" />
@@ -5112,9 +5113,7 @@
 		<monster name="Sunkern" x="-5" y="-1" z="7" spawntime="60" />
 		<monster name="Hoppip" x="0" y="1" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="1015" centery="966" centerz="7" radius="5">
-		<monster name="Sunkern" x="2" y="-1" z="7" spawntime="60" />
-	</spawn>
+	<spawn centerx="1015" centery="966" centerz="7" radius="5" />
 	<spawn centerx="1091" centery="966" centerz="7" radius="5">
 		<monster name="Oddish" x="3" y="0" z="7" spawntime="60" />
 		<monster name="Weepinbell" x="-2" y="1" z="7" spawntime="60" />
@@ -5243,8 +5242,8 @@
 		<monster name="Hoppip" x="0" y="-1" z="7" spawntime="60" />
 		<monster name="Sunkern" x="2" y="4" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="1013" centery="981" centerz="7" radius="1">
-		<npc name="Mark" x="0" y="0" z="7" spawntime="60" />
+	<spawn centerx="1014" centery="981" centerz="7" radius="1">
+		<npc name="Mark" x="-1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1124" centery="981" centerz="7" radius="5" />
 	<spawn centerx="919" centery="982" centerz="7" radius="5">
@@ -5260,6 +5259,9 @@
 		<monster name="Oddish" x="-3" y="-5" z="7" spawntime="60" />
 		<monster name="Bellsprout" x="0" y="2" z="7" spawntime="60" />
 		<monster name="Weepinbell" x="-3" y="4" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="975" centery="983" centerz="7" radius="1">
+		<npc name="HeldSeller" x="0" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1098" centery="983" centerz="7" radius="5">
 		<monster name="Bellsprout" x="-2" y="2" z="7" spawntime="60" />
@@ -5283,6 +5285,9 @@
 	<spawn centerx="1117" centery="987" centerz="7" radius="5" />
 	<spawn centerx="1151" centery="987" centerz="7" radius="1">
 		<npc name="Mark" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="975" centery="988" centerz="7" radius="1">
+		<npc name="Pokemon Collector" x="0" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="845" centery="989" centerz="7" radius="5">
 		<monster name="Sunkern" x="-3" y="-5" z="7" spawntime="60" />
@@ -5324,6 +5329,9 @@
 		<monster name="Oddish" x="-5" y="-4" z="7" spawntime="60" />
 		<monster name="Bellsprout" x="2" y="-2" z="7" spawntime="60" />
 		<monster name="Oddish" x="0" y="2" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="980" centery="994" centerz="7" radius="1">
+		<npc name="aFood" x="-1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="890" centery="995" centerz="7" radius="5">
 		<monster name="Sunkern" x="-4" y="-4" z="7" spawntime="60" />
@@ -5378,8 +5386,8 @@
 	</spawn>
 	<spawn centerx="1083" centery="999" centerz="7" radius="5">
 		<monster name="Weepinbell" x="-5" y="-3" z="7" spawntime="60" />
+		<monster name="Oddish" x="-1" y="-2" z="7" spawntime="60" />
 		<monster name="Bellsprout" x="1" y="-2" z="7" spawntime="60" />
-		<monster name="Oddish" x="-3" y="2" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1087" centery="999" centerz="7" radius="5" />
 	<spawn centerx="998" centery="1000" centerz="7" radius="1">
@@ -5768,6 +5776,11 @@
 		<monster name="Hoppip" x="0" y="-1" z="7" spawntime="60" />
 		<monster name="Gloom" x="-5" y="4" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="1014" centery="1047" centerz="7" radius="5">
+		<monster name="Gloom" x="0" y="-2" z="7" spawntime="60" />
+		<monster name="Sentret" x="2" y="0" z="7" spawntime="60" />
+		<monster name="Pidgey" x="-1" y="3" z="7" spawntime="60" />
+	</spawn>
 	<spawn centerx="1085" centery="1047" centerz="7" radius="5">
 		<monster name="Gloom" x="1" y="-4" z="7" spawntime="60" />
 		<monster name="Pidgey" x="0" y="1" z="7" spawntime="60" />
@@ -5783,11 +5796,6 @@
 	</spawn>
 	<spawn centerx="982" centery="1048" centerz="7" radius="5">
 		<monster name="Oddish" x="0" y="-1" z="7" spawntime="60" />
-	</spawn>
-	<spawn centerx="1014" centery="1048" centerz="7" radius="5">
-		<monster name="Gloom" x="0" y="-4" z="7" spawntime="60" />
-		<monster name="Sentret" x="-2" y="0" z="7" spawntime="60" />
-		<monster name="Pidgey" x="0" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1029" centery="1048" centerz="7" radius="5">
 		<monster name="Gloom" x="2" y="-4" z="7" spawntime="60" />
@@ -5810,8 +5818,8 @@
 		<monster name="Hoppip" x="5" y="5" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1000" centery="1050" centerz="7" radius="5">
-		<monster name="Oddish" x="1" y="0" z="7" spawntime="60" />
-		<monster name="Gloom" x="5" y="0" z="7" spawntime="60" />
+		<monster name="Oddish" x="-2" y="3" z="7" spawntime="60" />
+		<monster name="Gloom" x="3" y="4" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1056" centery="1050" centerz="7" radius="5">
 		<monster name="Gloom" x="-2" y="-3" z="7" spawntime="60" />

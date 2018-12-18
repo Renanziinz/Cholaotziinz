@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Henrique Helder" script="default.lua" walkinterval="0" floorchange="0" speed="0">
+<npc name="Trinity" script="default.lua" walkinterval="0" floorchange="0" speed="0" lookdir="2">
 <health now="150" max="150"/>
-<look type="1419" head="10" body="15" legs="20" feet="25"/>
+<look type="1714" head="79" body="114" legs="95" feet="94"/>
 <parameters>
-<parameter key="message_greet" value="Olá Meu amigo! Vendo Helds Itens Tier 1 por 150k e Tier 2 por 220k{trade}!"/>
+<parameter key="message_greet" value="Olá! Eu Vendo Helds Iniciais! Tier 1 por 150k e Tier 2 por 220k."/>
 <parameter key="message_farewell" value="Até Já!"/>
 <parameter key="message_idletimeout" value="Volte Sempre!"/>
 <parameter key="message_walkaway" value="Tabom Tchau!"/>

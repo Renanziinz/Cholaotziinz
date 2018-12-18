@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Ziraldo" script="default.lua" walkinterval="0" floorchange="0" speed="0">
+<npc name="Sasha" script="default.lua" walkinterval="0" floorchange="0" speed="0">
 <health now="150" max="150"/>
-<look type="1419" head="10" body="15" legs="20" feet="25"/>
+<look type="1697" head="129" body="0" legs="114" feet="114"/>
 <parameters>
-<parameter key="message_greet" value="Hello dear customer! Are you here to see my offers? Come on, lets {trade}!"/>
-<parameter key="message_farewell" value="Good bye!"/>
-<parameter key="message_idletimeout" value="Good bye!"/>
-<parameter key="message_walkaway" value="Good bye!"/>
+<parameter key="message_greet" value="Olá! Eu sou a responsável pelo comércio local de Stones!"/>﻿
+<parameter key="message_farewell" value="Adeus!"/>
+<parameter key="message_idletimeout" value="Adeus!"/>
+<parameter key="message_walkaway" value="Adeus!"/>
 <parameter key="module_shop" value="1"/>
 <parameter key="shop_buyable" value= "metal coat,12232,5000000;
 ancient stone,12244,5000000;
