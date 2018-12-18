@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<npc name="Namer" script="nick.lua" walkinterval="3000" floorchange="0" speed="50" lookdir="2">
+<npc name="Shea" script="nick.lua" walkinterval="3000" floorchange="0" speed="50" lookdir="2">
 
 	<health now="150" max="150"/>
 
-	<look type="614" head="115" body="122" legs="0" feet="76"/>
+	<look type="1688" head="86" body="144" legs="0" feet="114"/>
 
 	<parameters>
 

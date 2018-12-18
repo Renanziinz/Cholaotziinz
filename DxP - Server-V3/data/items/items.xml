@@ -2047,11 +2047,11 @@
 	<item id="2122" article="an" name="elven brooch">
 		<attribute key="weight" value="100" />
 	</item>
-	<item id="2123" article="a" name="ring of the sky">
+	<item id="2123" article="a" name="Passage Blocker">
 		<attribute key="weight" value="40" />
 		<attribute key="slotType" value="ring" />
 	</item>
-	<item id="2124" article="a" name="crystal ring">
+	<item id="2124" article="a" name="Item Blocker">
 		<attribute key="weight" value="90" />
 		<attribute key="slotType" value="ring" />
 	</item>
@@ -21816,7 +21816,7 @@
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12704" article="a" name="Mewtwo backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="44" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12705" article="a" name="Mr. mime backpack">
@@ -21868,7 +21868,7 @@
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12717" article="a" name="Mew backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="44" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12729" name="stairs">

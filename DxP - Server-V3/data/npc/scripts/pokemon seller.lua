@@ -423,7 +423,7 @@ function onCreatureSay(cid, type, msg)
 		local name = doCorrectPokemonName(msg)
 		local pokemon = pokes[name]
 		if not pokemon then
-			selfSay("Desculpe, eu não conheço esse pokémon! Você escreveu corretamente?")
+			selfSay("O que disse, machista?! Verifique se escreveu corretamente o nome do Pokémon.")
 		return true
 		end
 

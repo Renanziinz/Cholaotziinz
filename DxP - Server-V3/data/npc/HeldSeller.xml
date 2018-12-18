@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Trinity" script="default.lua" walkinterval="0" floorchange="0" speed="0" lookdir="2">
+<npc name="Trinity" script="default.lua" walkinterval="20000" floorchange="0" speed="100" lookdir="1">
 <health now="150" max="150"/>
 <look type="1714" head="79" body="114" legs="95" feet="94"/>
 <parameters>

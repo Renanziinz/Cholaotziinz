@@ -1712,6 +1712,9 @@
 	<spawn centerx="1151" centery="992" centerz="6" radius="1">
 		<npc name="Mark" x="-1" y="0" z="6" spawntime="60" />
 	</spawn>
+	<spawn centerx="977" centery="994" centerz="6" radius="5">
+		<npc name="Namer" x="0" y="-1" z="6" spawntime="60" />
+	</spawn>
 	<spawn centerx="855" centery="1010" centerz="6" radius="5">
 		<monster name="Sunflora" x="-2" y="-3" z="6" spawntime="60" />
 		<monster name="Sunflora" x="3" y="-1" z="6" spawntime="60" />
@@ -5101,6 +5104,7 @@
 	<spawn centerx="1161" centery="964" centerz="7" radius="5">
 		<monster name="Geodude" x="-4" y="-4" z="7" spawntime="60" />
 	</spawn>
+	<spawn centerx="1015" centery="965" centerz="7" radius="5" />
 	<spawn centerx="1054" centery="965" centerz="7" radius="5">
 		<monster name="Gloom" x="-3" y="-1" z="7" spawntime="60" />
 		<monster name="Bellsprout" x="3" y="-1" z="7" spawntime="60" />
@@ -5113,7 +5117,6 @@
 		<monster name="Sunkern" x="-5" y="-1" z="7" spawntime="60" />
 		<monster name="Hoppip" x="0" y="1" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="1015" centery="966" centerz="7" radius="5" />
 	<spawn centerx="1091" centery="966" centerz="7" radius="5">
 		<monster name="Oddish" x="3" y="0" z="7" spawntime="60" />
 		<monster name="Weepinbell" x="-2" y="1" z="7" spawntime="60" />
@@ -5287,6 +5290,7 @@
 		<npc name="Mark" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="975" centery="988" centerz="7" radius="1">
+		<npc name="Heather's Camerupt" x="0" y="-1" z="7" spawntime="60" />
 		<npc name="Pokemon Collector" x="0" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="845" centery="989" centerz="7" radius="5">
@@ -5330,7 +5334,7 @@
 		<monster name="Bellsprout" x="2" y="-2" z="7" spawntime="60" />
 		<monster name="Oddish" x="0" y="2" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="980" centery="994" centerz="7" radius="1">
+	<spawn centerx="979" centery="994" centerz="7" radius="1">
 		<npc name="aFood" x="-1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="890" centery="995" centerz="7" radius="5">
