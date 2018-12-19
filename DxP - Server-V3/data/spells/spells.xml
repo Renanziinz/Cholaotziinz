@@ -320,6 +320,7 @@
 	<instant name="Dark Pulse" words="spell316" lvl="1000" mana="0" event="script" value="ps/Dark Pulse.lua"></instant>
 	<instant name="Ice Wind" words="spell317" lvl="1000" mana="0" event="script" value="ps/Ice Wind.lua"></instant>
 	<instant name="Growth" words="spell325" lvl="1000" mana="0" event="script" value="ps/Growth.lua"></instant>
+	<instant name="Iron Defense Scizor" words="spell500" lvl="1000" mana="0" event="script" value="ps/Iron Defense Scizor.lua"></instant>
 
 	<instant name="Lava-Counter" words="spell318" lvl="1000" mana="0" event="script" value="passivas/Lava-Counter.lua"></instant>
 

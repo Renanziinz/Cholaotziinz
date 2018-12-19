@@ -66,11 +66,14 @@ local outImune = {
 ["Camouflage"] = 2087,
 ["Acid Armor"] = 1453,
 ["Iron Defense"] = 1401,
+["Iron Defense Scizor"] = 2137,
 ["Minimize"] = 1455,
 ["Future Sight"] = 1446,
 ["Psychic Sight"] = 1536,
 ["Heal Bell"] = 946,
 }
+
+
             
 local function transBack(cid)
 if isCreature(cid) then
@@ -625,7 +628,7 @@ local stg = conds[atributo]
     end
 	
     if a <= -1 then               --alterado v1.6
-    if isInArray({"Psychic Sight", "Heal Bell", "Future Sight", "Camouflage", "Acid Armor", "Iron Defense", "Minimize", "Bug Fighter", "Ancient Fury"}, buff) then
+    if isInArray({"Psychic Sight", "Heal Bell", "Future Sight", "Camouflage", "Acid Armor", "Iron Defense","Iron Defense Scizor", "Minimize", "Bug Fighter", "Ancient Fury"}, buff) then
        if not isSleeping(cid) then
           doRemoveCondition(cid, CONDITION_OUTFIT)
        end
@@ -675,7 +678,7 @@ local stg = conds[atributo]
        doRaiseStatus(cid, 1.5, 0, 0, a)    --atk melee    --alterado v1.6
        setPlayerStorageValue(cid, 374896, 1)  --velo atk 
        addEvent(setPlayerStorageValue, a*1000, cid, 465987, -1)                                              
-    elseif isInArray({"Psychic Sight", "Heal Bell", "Future Sight", "Camouflage", "Acid Armor", "Iron Defense", "Minimize"}, buff) then
+    elseif isInArray({"Psychic Sight", "Heal Bell", "Future Sight", "Camouflage", "Acid Armor", "Iron Defense","Iron Defense Scizor", "Minimize"}, buff) then
        doSetCreatureOutfit(cid, {lookType = outImune[buff]}, -1)
        setPlayerStorageValue(cid, 9658783, 1)  
        setPlayerStorageValue(cid, 625877, outImune[buff]) --alterado v1.6                             

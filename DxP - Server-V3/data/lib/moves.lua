@@ -194,6 +194,7 @@ movesinfo = {
 ["Surf"] = {f = 150, t = "water"},
 ["Acid Armor"] = {f = 0, t = "poison"},           --alterado v1.4 - novos atks
 ["Iron Defense"] = {f = 0, t = "steel"},
+["Iron Defense Scizor"] = {f = 0, t = "steel"},
 ["Future Sight"] = {f = 0, t = "psychic"},
 ["Shadowave"] = {f = 65, t = "dark"},
 ["Confuse Ray"] = {f = 65, t = "ghost"},

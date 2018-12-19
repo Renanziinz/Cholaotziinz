@@ -3461,7 +3461,7 @@ movestable = {
 		  move6 = {name = "Pursuit", level = 100, cd = 30, dist = 1, target = 1, f = 65, t = "bug"},
 		  move7 = {name = "X-Scissor", level = 100, cd = 40, dist = 1, target = 0, f = 0, t = "flying"},
 		  move8 = {name = "Mega Wing", level = 115, cd = 7, dist = 10, target = 0, f = 80, t = "steel"},
-		  move9 = {name = "Iron Defense", level = 108, cd = 60, dist = 1, target = 0, f = 0, t = "normal"},
+		  move9 = {name = "Iron Defense Scizor", level = 108, cd = 60, dist = 1, target = 0, f = 0, t = "normal"},
 		  move10 = {name = "Evasion", level = 1, cd = 0, dist = 10, target = 0, f = 55, t = "bug", passive = "sim"},
 		 },
 }

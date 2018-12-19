@@ -3536,7 +3536,7 @@ end
        addEvent(divineBack, 2100, cid)
        addEvent(doDivine, 2200, cid, min, max, spell, rounds, area)
        
-elseif isInArray({"Psychic Sight", "Future Sight", "Camouflage", "Acid Armor", "Iron Defense", "Minimize"}, spell) then
+elseif isInArray({"Psychic Sight", "Future Sight", "Camouflage", "Acid Armor", "Iron Defense", "Minimize", "Iron Defense Scizor"}, spell) then
 
    local ret = {}
    ret.id = cid
