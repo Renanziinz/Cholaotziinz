@@ -21760,117 +21760,157 @@
         <attribute key="slotType" value="legs" />
 	</item>
 	<item id="12690" article="a" name="Aerodactyl backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12691" article="a" name="Arbok backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12692" article="a" name="Charizard backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12693" article="a" name="Chikorita backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12694" article="a" name="Cubone backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12695" article="a" name="Dragonite backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12696" article="a" name="Eevee backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12697" article="a" name="Espeon backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12698" article="a" name="Flareon backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12699" article="a" name="Golduck backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12700" article="a" name="Haunter backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12701" article="a" name="Jolteon backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12702" article="a" name="Jynx backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12703" article="a" name="Machamp backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12704" article="a" name="Mewtwo backpack">
-		<attribute key="containerSize" value="44" />
+		<attribute key="containerSize" value="66" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12705" article="a" name="Mr. mime backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12706" article="a" name="Pidgeot backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12707" article="a" name="Pikachu backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12708" article="a" name="Sandslash backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12709" article="a" name="Scizor backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12710" article="a" name="Scyther backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12711" article="a" name="Sneasel backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12712" article="a" name="Snorlax backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12713" article="a" name="Umbreon backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12714" article="a" name="Vaporeon backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12715" article="a" name="Victreebel backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12716" article="a" name="Wartortle backpack">
-		<attribute key="containerSize" value="20" />
+		<attribute key="containerSize" value="24" />
 		<attribute key="slotType" value="backpack" />
 	</item>
 	<item id="12717" article="a" name="Mew backpack">
+		<attribute key="containerSize" value="66" />
+		<attribute key="slotType" value="backpack" />
+	</item>
+	<item id="15164" article="a" name="Wingeon Backpack">
 		<attribute key="containerSize" value="44" />
 		<attribute key="slotType" value="backpack" />
 	</item>
+	<item id="15165" article="a" name="Psycraft Backpack">
+		<attribute key="containerSize" value="44" />
+		<attribute key="slotType" value="backpack" />
+	</item>
+	<item id="15166" article="a" name="Gardestrike Backpack">
+		<attribute key="containerSize" value="44" />
+		<attribute key="slotType" value="backpack" />
+	</item>
+	<item id="15167" article="a" name="Naturia Backpack">
+		<attribute key="containerSize" value="44" />
+		<attribute key="slotType" value="backpack" />
+	</item>
+	<item id="15168" article="a" name="Orebound Backpack">
+		<attribute key="containerSize" value="44" />
+		<attribute key="slotType" value="backpack" />
+	</item>
+	<item id="15169" article="a" name="Raibolt Backpack">
+		<attribute key="containerSize" value="44" />
+		<attribute key="slotType" value="backpack" />
+	</item>
+	<item id="15170" article="a" name="Volcanic Backpack">
+		<attribute key="containerSize" value="44" />
+		<attribute key="slotType" value="backpack" />
+	</item>
+	<item id="15171" article="a" name="Seavell Backpack">
+		<attribute key="containerSize" value="44" />
+		<attribute key="slotType" value="backpack" />
+	</item>
+	<item id="15172" article="a" name="Malefic Backpack">
+		<attribute key="containerSize" value="44" />
+		<attribute key="slotType" value="backpack" />
+	</item>	
+	<item id="15173" article="a" name="Ironhard Backpack">
+		<attribute key="containerSize" value="44" />
+		<attribute key="slotType" value="backpack" />
+	</item>	
 	<item id="12729" name="stairs">
 		<attribute key="floorchange" value="north" />
 

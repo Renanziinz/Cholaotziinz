@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Aja" script="default.lua" walkinterval="20000" floorchange="0" speed="100" lookdir="1">
+<health now="150" max="150"/>
+<look type="1666" head="93" body="86" legs="0" feet="114"/>
+<parameters>
+<parameter key="message_greet" value="Inhai! Eu sou uma colecionadora fanática de Bags e Backpacks! Posso te vender algumas que tenho de sobra ou podemos trocar!"/>
+<parameter key="message_farewell" value="Até Já!"/>
+<parameter key="message_idletimeout" value="Volte Sempre!"/>
+<parameter key="message_walkaway" value="Okay, Tchau!"/>
+<parameter key="module_shop" value="1"/>
+<parameter key="shop_buyable" value= "Aerodactyl Backpack,12690,1000000;
+Arbok Backpack,12691,1000000;
+Charizard Backpack,12692,1000000;
+Chikorita Backpack,12693,1000000;
+Cubone Backpack,12694,1000000;
+Dragonite Backpack,12695,1000000;
+Eevee Backpack,12696,1000000;
+Espeon Backpack,12697,1000000;
+Flareon Backpack,12698,1000000;
+Golduck Backpack,12699,1000000;
+Haunter Backpack,12700,1000000;
+Jolteon Backpack,12701,1000000;
+Jynx Backpack,12702,1000000;
+Machamp Backpack,12703,1000000;
+Mewtwo Backpack,12704,10000000;
+Mr. mime Backpack,12705,1000000;
+Pidgeot Backpack,12706,1000000;
+Pikachu Backpack,12707,1000000;
+Sandslash Backpack,12708,1000000;
+Scizor Backpack,12709,1000000;
+Scyther Backpack,12710,1000000;
+Sneasel Backpack,12711,1000000;
+Snorlax Backpack,12712,1000000;
+Umbreon Backpack,12713,1000000;
+Vaporeon Backpack,12714,1000000;
+Victreebel Backpack,12715,1000000;
+Wartortle Backpack,12716,1000000;
+Mew Backpack,12717,10000000;
+Wingeon Backpack, 15164, 10000000;
+Psycraft Backpack, 15165, 10000000;
+Gardestrike Backpack, 15166, 10000000;
+Naturia Backpack, 15167, 10000000;
+Orebound Backpack, 15168, 10000000;
+Raibolt Backpack, 15169, 10000000;
+Volcanic Backpack, 15170, 10000000;
+Seavell Backpack, 15171, 10000000;
+Malefic Backpack, 15172, 10000000;
+Ironhard Backpack, 15173, 10000000;
+"/>
+<parameter key="shop_sellable" value= "Aerodactyl Backpack,12690,1000000;
+Arbok Backpack,12691,1000000;
+Charizard Backpack,12692,1000000;
+Chikorita Backpack,12693,1000000;
+Cubone Backpack,12694,1000000;
+Dragonite Backpack,12695,1000000;
+Eevee Backpack,12696,1000000;
+Espeon Backpack,12697,1000000;
+Flareon Backpack,12698,1000000;
+Golduck Backpack,12699,1000000;
+Haunter Backpack,12700,1000000;
+Jolteon Backpack,12701,1000000;
+Jynx Backpack,12702,1000000;
+Machamp Backpack,12703,1000000;
+Mewtwo Backpack,12704,1000000;
+Mr. mime Backpack,12705,1000000;
+Pidgeot Backpack,12706,1000000;
+Pikachu Backpack,12707,1000000;
+Sandslash Backpack,12708,1000000;
+Scizor Backpack,12709,1000000;
+Scyther Backpack,12710,1000000;
+Sneasel Backpack,12711,1000000;
+Snorlax Backpack,12712,1000000;
+Umbreon Backpack,12713,1000000;
+Vaporeon Backpack,12714,1000000;
+Victreebel Backpack,12715,1000000;
+Wartortle Backpack,12716,1000000;
+Mew Backpack,12717,1000000;"/>
+</parameters>
+</npc>
